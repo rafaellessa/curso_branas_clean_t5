@@ -4,7 +4,7 @@
         "es2021": true
     },
     "extends": [
-        "airbnb-base"
+        "standard"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -15,10 +15,16 @@
         "@typescript-eslint"
     ],
     "rules": {
-        "no-param-reassign":"off",
+      "no-param-reassign":"off",
         "class-methods-use-this":"off",
         "no-restricted-syntax":"off",
         "radix":"off",
-        "no-plusplus":"off"
+        "no-plusplus":"off",
+        "eqeqeq":"off",
+        "no-useless-escape":"off",
+        "no-undef":"off",
+        "no-useless-constructor":"off",
+        "import/extensions":"off",
+        "import/no-unresolved":"off"
     }
 }
