@@ -19,6 +19,8 @@
         "class-methods-use-this":"off",
         "no-restricted-syntax":"off",
         "radix":"off",
-        "no-plusplus":"off"
+        "no-plusplus":"off",
+        "eqeqeq":"off",
+        "no-useless-escape":"off"
     }
 }
